@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+    background: rgb(235, 235, 235);
+}
+
+card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-content {
+    width: 700px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    border-bottom-right-radius: 170px;
+    padding: 40px;
+}
+
+.box-imput {
+    display: flex;
+    flex-direction: row;
+    width: 480px;
+    justify-content: space-around;
+    color: hsl(0, 1%, 44%);
+    text-transform: uppercase;
+}
+
+.single-imput {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-imput label {
+    letter-spacing: 0.2rem;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.single-imput input {
+    width: 140px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 1px solid hsl(0, 0%, 86%);
+    color: rgb(0, 0, 0);
+}
+
+.single-imput input {
+    border: 1px solid hsl(259, 100%, 65%);
+    outline: none;
+}
+
+.error {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    color: hsl(0, 100%, 67%);
+    text-transform: none;
+    margin-top: 10px;
+}
+
+.button-content {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid hsl(0, 0%, 86%);
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(120, 65, 209);
+    cursor: pointer;
+    transition: 2s ease;
+}
+
+button:hover {
+    background-color: rgb(57, 102, 63);
+}
+
+.result-view {
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: -20px;
+    color: black;
+}
+
+span {
+    color: rgb(120, 65, 209);
+}
+
+
+
+
+
+
+
+
+
+/* const span ="";
+const newDate = (dayInput.value + monthInput.value + yearInput.value);
+const fullDate = newDate;
+
+
+function isValidDateEntry(){
+   if(!/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(dateString))
+        return false;
+
+    // Parse the date parts to integers
+    var parts = dateString.split("/");
+    var day = parseInt(parts[1], 10);
+    var month = parseInt(parts[0], 10);
+    var year = parseInt(parts[2], 10);
+
+    // Check the ranges of month and year
+    if(year < 1000 || year > 3000 || month == 0 || month > 12)
+        return false;
+
+    var monthLength = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 ];
+
+    // Adjust for leap years
+    if(year % 400 == 0 || (year % 100 != 0 && year % 4 == 0))
+        monthLength[1] = 29;
+
+    // Check the range of the day
+    return day > 0 && day <= monthLength[month - 1];
+} */
+
+
+
+
+
+/* const newDate = (dayInput.value, monthInput.value, yearInput.value)
+
+if newDate = (dayInput.value, monthInput.value, yearInput.value) {
+  return true;
+}
+else {
+  return false;
+}
+
+
+fullDate = newInput () 
+  if (fullDate = newInput) {
+    return true
+  }
+else {
+  return false
+}
+
+
+
+function resetFunction() {} */
